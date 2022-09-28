@@ -1,0 +1,8 @@
+const { gql} = require('apollo-server')
+
+
+const produtoSchema = gql `
+    type Product {
+        nome: String!
+    }
+`
